@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+  }
+  
+body {
+    font-family: "Open Sans",
+    sans-serif; 
+    font-size: 20px;
+    color: #444;
+    text-align: center;                                                             
+    line-height: 1.5;
+  }
+  
+nav,footer {
+    padding: 1% 0;
+    background-color: #aaa;
+  }
+
+  
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+  }
+  
+ul {
+      display: inline-block;
+      text-align: left;
+  }
+  
+header {
+    padding: 12% 0;
+  }
+  
+section {
+    min-height: 200px;
+    padding: 6% 0;
+    background-color: #bbb;
+  }
+  
+  section:nth-child(even) {
+    background-color: #ddd;
+  }
+
+#lang-1 {
+    font-style: italic;
+}
+
+#linkedin, #github, #email {
+  height: 70px;
+  width: 70px;
+}
+
+@media only screen and (min-width: 320px) {
+        #quiz-sample1, #quiz-sample2 {
+          height: 85%;
+          width: 85%;
+      }
+      #linkedin, #github, #email {
+        height: 50px;
+        width: 50px;
+      }
+  }
+
+@media only screen and (min-width: 768px) {
+    #quiz-sample1, #quiz-sample2 {
+        height: 600px;
+        width: 600px;
+    }
+
+    #linkedin, #github, #email {
+      height: 70px;
+      width: 70px;
+    }
+} 

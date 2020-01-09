@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <title>Portfolio Wireframe</title>
+</head>
+<body>
+    <nav role="navigation" class="port-navi" aria-live="polite">
+        <a id="Home">Home</a> <!-- I have <a href> tags as IDs for now to prevent linking due to styling in jQuery I want to do. -->
+        <a id="About">About</a>
+        <a id="Projects">Projects</a>
+        <a id="Skills">Skills</a>
+        <a id="Contact">Contact</a>
+    </nav>
+    <main role="main" class="portfolio-page" aria-live="polite">
+        <header role="banner" class="portfolio-landing">
+            <h1>Hello,</h1>
+                <h2> I'm Catrina. I seek to empower others and the world around me through code. </h2>
+        </header>
+
+        <section class="about-me" aria-live="polite">
+            <h3>About</h3>
+            <p id="about-1">I am currently honing my skills as a full-stack developer through Thinkful. My aim is to create dynamic 
+                and innovative coding solutions that make technology accessible, fun, and empowering for users and developers alike. 
+            </p>
+            <p id="about-2">When I'm not busy debugging my latest project, I enjoy curling up with a good book, playing with my cat Dante, spending time with loved ones, or playing video games. </p>
+        </section>
+
+        <section class="projects-page" aria-live="polite">
+            <h3>Projects</h3>
+            <h4>The Legend of Zelda Quiz Application</h4>
+            <a href=https://knivesschau.github.io/Quiz_App_FINALCF id="demo-1">Live Demo</a>
+            <a href=https://github.com/knivesschau/Quiz_App_FINALCF id="repo-1">Repository</a>
+            <p id="lang-1">HTML, CSS, Javascript, jQuery</p>
+            <img src = https://user-images.githubusercontent.com/54642928/71238542-3c7ab880-22fc-11ea-9820-c45056ab37c3.png id="quiz-sample1" alt="Quiz App Sample Image 1">
+            <img src = https://user-images.githubusercontent.com/54642928/71238609-71870b00-22fc-11ea-9568-d7458552e64b.png id="quiz-sample2" alt="Quiz App Sample Image 2">
+            <p id="description-1"><b>Description:</b> A simple quiz application that tests the user's knowledge on the popular video game series
+            <i>The Legend of Zelda.</i> This was the first web application I built to help me practice implementing responsive,
+            mobile-first design and jQuery functionality.</p>
+        </section>
+
+        <section class="current-skillset" aria-live="polite">
+            <h3>Skills</h3>
+            <ul id="skill-list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>jQuery</li>
+            </ul>
+        </section>
+
+        <section class="contact-info" aria-live="polite">
+            <h3>Contact</h3>
+            <a href="https://github.com/knivesschau"><img src=https://user-images.githubusercontent.com/54642928/72030818-400db980-3282-11ea-9314-6efb57ec9e28.png id="github" alt="GitHub Link Icon"></a>
+            <a href="www.linkedin.com/in/catrina-fuentes"><img src=https://user-images.githubusercontent.com/54642928/72015750-4425e100-325a-11ea-8ade-e3e90efbd580.png id="linkedin" alt="LinkedIn Link Icon"></a>
+            <a href="mailto:cat.fuentes93@gmail.com"><img src=https://user-images.githubusercontent.com/54642928/72015713-31aba780-325a-11ea-8665-d998bca8b9f6.png id="email" alt="E-Mail Link Icon"></a>
+        </section>
+    </main>
+    <footer role="contentinfo">&copy; Catrina Fuentes 2020 </footer>
+</body>
+</html>
