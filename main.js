@@ -14,21 +14,36 @@ function portNavigation() {
     $("#about").on("click", function(event) {
         console.log("click 1 ran!");
         $(".about-me").show();
+        $(".portfolio-landing, .portfolio-page, .current-skillset, .contact-info").hide();
     });
 
     $("#portfolio").on("click", function(event) {
         console.log("click 2 ran!");
         $(".portfolio-page").show();
+        $(".portfolio-landing, .about-me, .current-skillset, .contact-info").hide();
     });
 
     $("#skills").on("click", function(event){
         console.log("click 3 ran!");
          $(".current-skillset").show();
+         $(".portfolio-landing, .about-me, .portfolio-page, .contact-info").hide();
     });
 
     $("#contact").on("click", function(event) {
         console.log("click 4 ran!");
         $(".contact-info").show();
+        $(".portfolio-landing, .about-me, .portfolio-page, .current-skillset").hide();
+    });
+}
+
+//this function resets the portfolio every time the user clicks "Home".
+function resetPortfolio() {
+console.log("resetPortfolio ran!");
+
+    $("#home").on("click", function(event) {
+        console.log("reset ran!");
+        $(".portfolio-landing").show();
+        hideHTML();
     });
 }
 
@@ -37,6 +52,7 @@ function portfolioRender() {
     console.log("portfolioRender ran");
     hideHTML();
     portNavigation();
+    resetPortfolio();
 }
 
 $(portfolioRender);
