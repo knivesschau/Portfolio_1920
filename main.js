@@ -13,9 +13,11 @@ function portNavigation() {
 
     $("#about-page").on("click", function(event) {
         console.log("click 1 ran!");
-        $(".about-page").show();
-        $(".portfolio-landing, .portfolio-page, .current-skillset, .contact-info").hide();
-    });
+            $(".about-page").slideDown();
+        });
+        /* $(".portfolio-landing, .portfolio-page, .current-skillset, .contact-info").hide("slow");
+        $(".about-page").show("fast"); */
+    
 
     $("#portfolio").on("click", function(event) {
         console.log("click 2 ran!");
