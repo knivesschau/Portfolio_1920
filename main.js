@@ -3,7 +3,6 @@
 //this function hides all other HTML sections so the user lands on the tagline, footer, and nav links.
 function hideHTML() {
     console.log("hideHTML ran");
-
     $(".about-page, .portfolio-page, .current-skillset, .contact-info").hide();
 }
 
@@ -13,27 +12,26 @@ function portNavigation() {
 
     $("#about-page").on("click", function(event) {
         console.log("click 1 ran!");
-            $(".about-page").slideDown();
-        });
-        /* $(".portfolio-landing, .portfolio-page, .current-skillset, .contact-info").hide("slow");
-        $(".about-page").show("fast"); */
+        $(".about-page").fadeIn(1000);
+        $(".portfolio-landing, .portfolio-page, .current-skillset, .contact-info").hide();
+    });
     
 
     $("#portfolio").on("click", function(event) {
         console.log("click 2 ran!");
-        $(".portfolio-page").show();
+        $(".portfolio-page").fadeIn(1000);
         $(".portfolio-landing, .about-page, .current-skillset, .contact-info").hide();
     });
 
     $("#skills").on("click", function(event){
         console.log("click 3 ran!");
-         $(".current-skillset").show();
+         $(".current-skillset").fadeIn(1000);
          $(".portfolio-landing, .about-page, .portfolio-page, .contact-info").hide();
     });
 
     $("#contact-page").on("click", function(event) {
         console.log("click 4 ran!");
-        $(".contact-info").show();
+        $(".contact-info").fadeIn(1000);
         $(".portfolio-landing, .about-page, .portfolio-page, .current-skillset").hide();
     });
 }
@@ -44,7 +42,7 @@ console.log("resetPortfolio ran!");
 
     $("#home").on("click", function(event) {
         console.log("reset ran!");
-        $(".portfolio-landing").show();
+        $(".portfolio-landing").fadeIn(1000);
         hideHTML();
     });
 }
