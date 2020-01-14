@@ -129,7 +129,7 @@ nav {
 
   #about-1, #about-2 {
     text-align: left;
-    font-size: 12px;
+    font-size: 10pt;
     padding-left: 5%;
     padding-right: 5%;
   }
@@ -197,16 +197,52 @@ nav {
     font-size: 32pt;
   }
 
+  h3 {
+    font-size: 28pt;
+  }
+  
+  h4 {
+    font-size: 14pt;
+  }
+
   .portfolio-landing {
     padding-top: 20%;
   }
 
   .about-page {
-    padding: 20%;
+    padding: 2%;
   }
 
   #about-1, #about-2 {
+    margin: 0;
+    margin-top: 3%;
     font-size: 12pt;
+  }
+
+  #lang-1  {
+    text-align: center;
+    font-size: 12pt;
+    font-style: italic;
+  }
+
+  #description-1 {
+    font-size: 12pt;
+    text-align: left;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  
+  #quiz-sample1, #quiz-sample2 {
+    height: 65%;
+    width: 65%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+  }
+
+  #skill-list {
+    font-size: 16pt;
   }
 
   #linkedin, #github, #email {
@@ -230,5 +266,4 @@ nav {
       height: 70px;
       width: 70px;
     }
-
 } 
