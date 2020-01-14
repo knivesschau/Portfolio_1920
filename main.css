@@ -2,27 +2,49 @@
     box-sizing: border-box;
   }
   
-
-h1 {
+#home-header {
   font-family: "Poppins", sans-serif;
+  color: #ff6eaf;
+  font-style: italic;
 }
 
 h2, h3, h4 {
   font-family: "Karla", sans-serif;
 }
 
+h3 {
+  color: #ff6eaf;
+}
+
 a, p, ul, footer {
   font-family: "Open Sans", sans-serif;
 }
 
+section {
+  min-height: 200px;
+  padding: 6% 0;
+}
+
 body {
-    font-size: 20px;
-    text-align: center;                                                             
-    line-height: 1.5;
-  }
-  
+  font-size: 20px;                                                         
+  line-height: 1.5;
+  text-align: center;
+}
+
 nav, footer {
-    padding: 1% 0; 
+  padding: 1% 0; 
+}
+
+ul {
+  padding: 0;
+  text-align: center;
+}
+
+li {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  line-height: 2.5;
 }
 
 nav {
@@ -31,48 +53,170 @@ nav {
   width: 100%;
   overflow: hidden;
   background-color: #d9b3ff;
+  color: #ffecb3; 
 }
 
-footer {
-  position: relative; 
-}
-
-ul {
-      display: inline-block;
-      text-align: left;
-  }
-  
-header {
-    padding: 12% 0;
-  }
-  
-section {
-    min-height: 200px;
-    padding: 6% 0;
-  }
-  
-/* section:nth-child(even) {
-    background-color: #ddd;
-  } */
-
-#lang-1 {
-    font-style: italic;
-}
-
-#linkedin, #github, #email {
-  height: 70px;
-  width: 70px;
+#home, #about-page, #portfolio, #skills, #contact-page {
+  color: #ffecb3; 
+  font-style: bold;
+  text-decoration: none;
 }
 
 @media only screen and (min-width: 320px) {
+  a {
+    font-size: 10pt;
+    padding: 2%;
+  }
+
+  .portfolio-landing {
+    padding-top: 15%;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  
+  h1 {
+    text-align: left;
+    font-size: 30pt;
+    font-style: bold;
+  }
+
+  h2 {
+    font-size: 28pt;
+    font-style: italic;
+    text-align: center;
+
+  }
+
+  h3 {
+    font-size: 28px;
+    font-style: italic;
+    text-align: center;
+    padding-top: 5%;
+    margin: 0;
+  }
+
+  h4 {
+    margin: 0;
+    margin-bottom: 2%;
+    text-align: center;
+    font-style: bold;
+  }
+
+  footer {
+    position: fixed;
+    top: 0;
+    right: 0;
+    font-style: italic;
+    padding-right: 5px;
+  }
+
+  .about-page, .portfolio-page, .contact-info, .current-skillset {
+    font-size: 12pt;
+  }
+
+  .current-skillset, .contact-info {
+    padding: 40% 0;
+  }
+
+  .about.page {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #about-header {
+    margin-bottom: 5%;
+  }
+
+  #about-1, #about-2 {
+    text-align: left;
+    font-size: 12px;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .portfolio-page {
+    padding: 2%;
+  }
+
+  #lang-1  {
+    text-align: center;
+    font-size: 10pt;
+    font-style: italic;
+  }
+
+  #description-1 {
+    font-size: 10pt;
+    text-align: left;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  
   #quiz-sample1, #quiz-sample2 {
-    height: 85%;
-    width: 85%;
+    height: 70%;
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+  }
+
+  #portrait-img {
+    border-radius: 100%;
+    height: 65%;
+    width: 65%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   #linkedin, #github, #email {
-    height: 50px;
-    width: 50px;
+    height: 80px;
+    width: 80px;
+    position: relative;
+    top: 60px;
+    left: 5px;
+    right: 5px;
+    padding: 5%;
+  }
+
+  footer {
+    font-size: 8pt;
+  }
+}
+
+@media only screen and (min-width: 375px) {
+  #home, #about-page, #portfolio, #skills, #contact-page {
+    font-size: 12pt;
+  }
+
+  h1 {
+    font-size: 40pt;
+  }
+
+  h2 {
+    font-size: 32pt;
+  }
+
+  .portfolio-landing {
+    padding-top: 20%;
+  }
+
+  .about-page {
+    padding: 20%;
+  }
+
+  #about-1, #about-2 {
+    font-size: 12pt;
+  }
+
+  #linkedin, #github, #email {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: 60px;
+    left: 5px;
+    right: 5px;
+    padding: 5%;
   }
 }
 
@@ -86,4 +230,5 @@ section {
       height: 70px;
       width: 70px;
     }
+
 } 

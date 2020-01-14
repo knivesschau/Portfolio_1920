@@ -3,7 +3,10 @@
 //this function hides all other HTML sections so the user lands on the tagline, footer, and nav links.
 function hideHTML() {
     console.log("hideHTML ran");
-    $(".about-page, .portfolio-page, .current-skillset, .contact-info").hide();
+    $(".about-page, .portfolio-page, .current-skillset, .contact-info, .portfolio-landing").hide();
+    $("document").ready(function() {
+        $(".portfolio-landing").fadeIn(1000);
+    });
 }
 
 //this function shows other HTML sections when clicked on so that the user can navigate through the portfolio. 
@@ -42,7 +45,6 @@ console.log("resetPortfolio ran!");
 
     $("#home").on("click", function(event) {
         console.log("reset ran!");
-        $(".portfolio-landing").fadeIn(1000);
         hideHTML();
     });
 }
