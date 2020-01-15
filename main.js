@@ -5,7 +5,7 @@ function hideHTML() {
     console.log("hideHTML ran");
     $(".about-page, .portfolio-page, .current-skillset, .contact-info, .portfolio-landing").hide();
     $("document").ready(function() {
-        $(".portfolio-landing").fadeIn(1000);
+        $(".portfolio-landing").fadeIn(2000);
     });
 }
 
@@ -15,26 +15,26 @@ function portNavigation() {
 
     $("#about-page").on("click", function(event) {
         console.log("click 1 ran!");
-        $(".about-page").fadeIn(1000);
+        $(".about-page").fadeIn(600);
         $(".portfolio-landing, .portfolio-page, .current-skillset, .contact-info").hide();
     });
     
 
     $("#portfolio").on("click", function(event) {
         console.log("click 2 ran!");
-        $(".portfolio-page").fadeIn(1000);
+        $(".portfolio-page").fadeIn(600);
         $(".portfolio-landing, .about-page, .current-skillset, .contact-info").hide();
     });
 
     $("#skills").on("click", function(event){
         console.log("click 3 ran!");
-         $(".current-skillset").fadeIn(1000);
+         $(".current-skillset").fadeIn(600);
          $(".portfolio-landing, .about-page, .portfolio-page, .contact-info").hide();
     });
 
     $("#contact-page").on("click", function(event) {
         console.log("click 4 ran!");
-        $(".contact-info").fadeIn(1000);
+        $(".contact-info").fadeIn(600);
         $(".portfolio-landing, .about-page, .portfolio-page, .current-skillset").hide();
     });
 }

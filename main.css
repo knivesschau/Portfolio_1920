@@ -55,7 +55,7 @@ nav {
   position: fixed;
   bottom: 0;
   width: 100%;
-  line-height: 0.5;
+  line-height: 1.0;
   overflow: hidden;
   background-color: #d9b3ff;
 }
@@ -64,6 +64,32 @@ nav {
   color: #FFFFFF; 
   text-shadow: 0px 0px 5px #976391;
   text-decoration: none;
+}
+
+#home:hover, #about-page:hover, #portfolio:hover, #skills:hover, #contact-page:hover {
+  cursor: pointer;
+  background:#976391;
+  text-transform: lowercase;
+  text-decoration: underline #F9E0DD; 
+}
+
+#home:active, #about-page:active, #portfolio:active, #skills:active, #contact-page:active {
+  background: #9BDEAC;
+}
+
+a {
+  text-decoration: none; 
+  color: #ff6eaf;
+}
+
+a:hover {
+  cursor: pointer;
+  color: #976391;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #9BDEAC;
 }
 
 @media only screen and (min-width: 320px) {
@@ -220,7 +246,7 @@ nav {
   #about-1, #about-2 {
     margin: 0;
     margin-top: 5%;
-    font-size: 12px;
+    font-size: 14px;
   }
 
   #lang-1  {
@@ -230,7 +256,7 @@ nav {
   }
 
   #description-1 {
-    font-size: 12px;
+    font-size: 14px;
     text-align: left;
     padding-left: 2%;
     padding-right: 2%;
