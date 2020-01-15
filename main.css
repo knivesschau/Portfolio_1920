@@ -55,6 +55,7 @@ nav {
   position: fixed;
   bottom: 0;
   width: 100%;
+  line-height: 0.5;
   overflow: hidden;
   background-color: #d9b3ff;
 }
@@ -229,7 +230,7 @@ nav {
   }
 
   #description-1 {
-    font-size: 15px;
+    font-size: 14px;
     text-align: left;
     padding-left: 2%;
     padding-right: 2%;
