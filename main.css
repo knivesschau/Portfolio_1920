@@ -133,8 +133,12 @@ a:active {
   padding-right: 2%;
 }
 
-.current-skillset, .contact-info {
+.current-skillset {
   padding: 10% 0;
+}
+
+.contact-info {
+  padding: 30% 0; 
 }
 
 .about.page {
@@ -144,7 +148,7 @@ a:active {
 
 .portfolio-page {
   padding: 2%;
-}
+} 
 
 #about-header {
   margin-bottom: 5%;
@@ -201,19 +205,27 @@ a:active {
   right: 5px;
 }
 
-/* @media only screen and (min-width: 375px) and (max-width: 414px) {
+@media only screen and (min-width: 375px) and (max-width: 414px) {
+  .portfolio-landing {
+    padding-top: 30%;
+  }
+
+  .portfolio-page {
+    padding-top: 5%;
+  }
+  
+  .current-skillset {
+    padding-top: 25%;
+  } 
+
   a {
     font-size: 16px;
   }
 
-  #about-1, #about-2 {
+  #about-1, #about-2, #description-1 {
     font-size: 16px;
   }
-
-  .portfolio-page, .about-page {
-    padding-top: 10%;
-  }
-} */
+} 
 
 
 @media only screen and (min-width: 768px) {
