@@ -4,6 +4,10 @@
     box-sizing: content-box;
   }
 
+.hidden {
+  display: none;
+}
+
 #home-header {
   font-family: "Poppins", sans-serif;
   color: #ff6eaf;
@@ -97,7 +101,6 @@ nav {
 #home:hover, #about-page:hover, #portfolio:hover, #skills:hover, #contact-page:hover {
   cursor: pointer;
   background:#976391;
-  text-transform: lowercase;
   text-decoration: underline #F9E0DD; 
 }
 
@@ -367,10 +370,6 @@ a:active {
   #home, #about-page, #portfolio, #skills, #contact-page {
     font-size: 32px;
     padding: 4%;
-  }
-
-  footer {
-    opacity: 0.2;
   }
 
   h1 {
