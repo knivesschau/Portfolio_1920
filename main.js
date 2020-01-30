@@ -2,13 +2,13 @@
 
 //this function renders the default portfolio view in mobile AND desktop. 
 function portfolioRender() {
-    loadIn();
+    landingAnimation();
     portNavigation();
     resetPortfolio();
 }
 
-//this function handles the animation of the landing page.
-function loadIn() {
+//this function handles the animation of the landing page when reset.
+function landingAnimation() {
     $("document").ready(function() {
         $(".portfolio-landing").fadeIn(400);
     });
@@ -41,7 +41,7 @@ function portNavigation() {
 //this function resets the portfolio every time the user clicks "Home".
 function resetPortfolio() {
     $("#home").on("click", function(event) {
-        loadIn();
+        landingAnimation();
         $(".about-page, .portfolio-page, .current-skillset, .contact-info").hide();
     });
  }
