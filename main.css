@@ -5,11 +5,22 @@
   }
 
 html {
-  overflow: hidden;
+  height: 100%;
+}
+
+main {
+  margin: 0;
+  height: 100%;
+  width: 100%;
 }
 
 section {
   padding: 6% 0;
+}
+
+.about-page, .portfolio-page {
+  overflow-y: auto;
+  height: 100%;
 }
 
 body {                                            
@@ -17,6 +28,9 @@ body {
   text-align: center;
   background-image: url("https://user-images.githubusercontent.com/54642928/72388750-aaa97400-371e-11ea-9cd4-143a2c356f20.png");
   background-position: cover;
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
 }
 
 .hidden {
@@ -68,14 +82,10 @@ nav, footer {
 
 footer {
   position: fixed;
-  bottom: 0;
-  right: 0;
+  top: 20px;
   font-style: italic;
-  padding-right: 5px;
   font-size: 8px;
-  background-color: white;
-  border-radius: 13px;
-  box-shadow: 1px 1px 20px 0px white;
+  padding-right: 5px;
 }
 
 ul {
@@ -150,7 +160,6 @@ a:active {
   overflow: hidden;
 }
 
-
 .about.page {
   display: flex;
   justify-content: space-between;
@@ -189,8 +198,8 @@ a:active {
 }
 
 #quiz-sample1, #quiz-sample2 {
-  height: 70%;
-  width: 70%;
+  height: 200px;
+  width: 300px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -199,8 +208,8 @@ a:active {
 
 #portrait-img {
   border-radius: 100%;
-  height: 75%;
-  width: 75%;
+  height: 210px;
+  width: 250px;
   display: block;
   margin-left: auto;
   margin-right: auto;
