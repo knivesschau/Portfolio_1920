@@ -17,23 +17,23 @@ function landingAnimation() {
 //this function shows other HTML sections when clicked on so that the user can navigate through the portfolio. 
 function portNavigation() {
     $("#about-page").on("click", function(event) {
-        $(".about-page").fadeIn(400)
+        $(".about-page").fadeIn(500)
         $(".portfolio-landing, .portfolio-page, .current-skillset, .contact-info").hide(); 
     });
     
 
     $("#portfolio").on("click", function(event) {
-        $(".portfolio-page").fadeIn(400);
+        $(".portfolio-page").fadeIn(500);
         $(".portfolio-landing, .about-page, .current-skillset, .contact-info").hide();
     });
 
     $("#skills").on("click", function(event){
-         $(".current-skillset").fadeIn(400);
+         $(".current-skillset").fadeIn(500);
          $(".portfolio-landing, .about-page, .portfolio-page, .contact-info").hide(); 
     });
 
     $("#contact-page").on("click", function(event) {
-        $(".contact-info").fadeIn(400);
+        $(".contact-info").fadeIn(500);
         $(".portfolio-landing, .about-page, .portfolio-page, .current-skillset").hide();
     });
 }

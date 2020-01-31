@@ -4,7 +4,15 @@
     box-sizing: content-box;
   }
 
-body {                                                 
+html {
+  overflow: hidden;
+}
+
+section {
+  padding: 6% 0;
+}
+
+body {                                            
   line-height: 1.5;
   text-align: center;
   background-image: url("https://user-images.githubusercontent.com/54642928/72388750-aaa97400-371e-11ea-9cd4-143a2c356f20.png");
@@ -54,11 +62,6 @@ a, p, ul, footer {
   font-family: "Open Sans", sans-serif;
 }
 
-section {
-  min-height: 200px;
-  padding: 6% 0;
-}
-
 nav, footer {
   padding: 1% 0; 
 }
@@ -70,6 +73,9 @@ footer {
   font-style: italic;
   padding-right: 5px;
   font-size: 8px;
+  background-color: white;
+  border-radius: 13px;
+  box-shadow: 1px 1px 20px 0px white;
 }
 
 ul {
@@ -87,6 +93,7 @@ li {
 nav {
   position: fixed;
   top: 0;
+  z-index: 10;
   width: 100%;
   line-height: 1.0;
   overflow: hidden;
@@ -139,7 +146,10 @@ a:active {
 
 .contact-info {
   padding: 30% 0; 
+  height: 100%;
+  overflow: hidden;
 }
+
 
 .about.page {
   display: flex;
@@ -158,7 +168,7 @@ a:active {
   text-align: left;
   padding-left: 5%;
   padding-right: 5%;
-  font-size: 13px;
+  font-size: 15px;
 }
 
 #lang-1 {
@@ -189,8 +199,8 @@ a:active {
 
 #portrait-img {
   border-radius: 100%;
-  height: 65%;
-  width: 65%;
+  height: 75%;
+  width: 75%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -205,6 +215,7 @@ a:active {
   right: 5px;
 }
 
+/* Larger smartphones */
 @media only screen and (min-width: 375px) {
   .portfolio-landing {
     padding-top: 30%;
@@ -222,11 +233,12 @@ a:active {
     font-size: 16px;
   }
 
-  #about-1, #about-2, #description-1 {
+  #description-1 {
     font-size: 16px;
   }
 } 
 
+/* iPads */
 @media only screen and (min-width: 768px) {
   #home, #about-page, #portfolio, #skills, #contact-page, a {
     font-size: 32px;
@@ -279,8 +291,8 @@ a:active {
   }
 
   #portrait-img {
-    height: 50%;
-    width: 50%;
+    height: 60%;
+    width: 60%;
   }  
 
   #quiz-sample1, #quiz-sample2 {
@@ -299,6 +311,7 @@ a:active {
   }
 } 
 
+/* Desktop */
 @media only screen and (min-width: 1000px) {
   #home, #about-page, #portfolio, #skills, #contact-page {
     padding: 4%;
@@ -330,6 +343,7 @@ a:active {
   }
 } 
 
+/* Larger resolutions (desktop) */
 @media only screen and (min-width: 1200px) {
   h3 {
     font-size: 70px;
@@ -346,8 +360,8 @@ a:active {
   }
 
   #portrait-img {
-    height: 35%;
-    width: 25%;
+    height: 40%;
+    width: 40%;
   }   
 
   #about-1, #about-2 {
