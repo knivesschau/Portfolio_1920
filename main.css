@@ -20,7 +20,7 @@ section {
 
 .about-page, .portfolio-page {
   overflow-y: auto;
-  height: 100%;
+  height: 90%;
 }
 
 body {                                            
@@ -295,8 +295,8 @@ a:active {
   .portfolio-landing {
     padding-top: 10%;
   }
-
-  .about-page, .portfolio-page, .current-skillset {
+ 
+  .current-skillset {
     overflow-y: auto;
     height: 90%;
   }
