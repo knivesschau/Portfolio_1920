@@ -208,7 +208,7 @@ a:active {
 }
 
 #portrait-img {
-  border-radius: 100%;
+  border-radius: 70%;
   height: 30%;
   width: 65%;
   display: block;
@@ -303,8 +303,8 @@ a:active {
   }
 
   #portrait-img {
-    height: 50%;
-    width: 60%;
+    height: 45%;
+    width: 55%;
   }  
 
   #quiz-sample1, #quiz-sample2 {
@@ -343,7 +343,7 @@ a:active {
 
   #portrait-img {
     height: 60%;
-    width: 60%;
+    width: 55%;
   }  
 
   #quiz-sample1 {
@@ -383,11 +383,11 @@ a:active {
 
   #portrait-img {
     height: 60%;
-    width: 45%;
+    width: 40%;
   }   
 
   #about-1, #about-2 {
-    font-size: 34px;
+    font-size: 32px;
   }
 
   #quiz-sample1, #quiz-sample2 {
