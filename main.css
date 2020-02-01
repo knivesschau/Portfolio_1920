@@ -296,7 +296,7 @@ a:active {
     padding-top: 10%;
   }
 
-  .about-page, .portfolio-page {
+  .about-page, .portfolio-page, .current-skillset {
     overflow-y: auto;
     height: 90%;
   }
@@ -355,6 +355,10 @@ a:active {
     margin-right: 30px;
   }
 
+  #about-1 {
+    margin-bottom: -20px;
+  }
+
   .contact-info {
     padding-top: 10%;
   }
@@ -378,7 +382,7 @@ a:active {
 
   #portrait-img {
     height: 60%;
-    width: 45%;
+    width: 40%;
   }   
 
   #about-1, #about-2 {
@@ -386,7 +390,7 @@ a:active {
   }
 
   #quiz-sample1, #quiz-sample2 {
-    height: 40%;
+    height: 50%;
     width: 45%;
     margin-left: 10px;
     margin-right: 10px;
