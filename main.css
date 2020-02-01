@@ -20,7 +20,7 @@ section {
 
 .about-page, .portfolio-page {
   overflow-y: auto;
-  height: 90%;
+  height: 100%;
 }
 
 body {                                            
@@ -191,7 +191,7 @@ a:active {
   text-align: left;
   padding-left: 2%;
   padding-right: 2%;
-  font-size: 13px;
+  font-size: 11px;
 }
 
 #skill-list {
@@ -286,6 +286,7 @@ a:active {
 
   footer {
     font-size: 14px;
+    right: 15px;
   }
 
   .current-skillset {
@@ -296,7 +297,7 @@ a:active {
     padding-top: 10%;
   }
  
-  .current-skillset {
+  .about-page, .portfolio-page, .current-skillset {
     overflow-y: auto;
     height: 90%;
   }
@@ -386,7 +387,7 @@ a:active {
   }   
 
   #about-1, #about-2 {
-    font-size: 36px;
+    font-size: 34px;
   }
 
   #quiz-sample1, #quiz-sample2 {
