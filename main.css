@@ -24,7 +24,7 @@ body {
 
 h1 {
   font-family: "Poppins", sans-serif;
-  color: #ff6eaf;
+  color: #976391;
   font-style: italic;
   text-align: left;
   font-size: 46px;
@@ -41,7 +41,7 @@ h2 {
 }
 
 h3 {
-  color: #ff6eaf;
+  color: #976391;
   font-style: italic;
   text-align: center;
   padding-top: 5%;
@@ -93,20 +93,21 @@ nav {
   width: 100%;
   line-height: 1.0;
   overflow: hidden;
-  background-color: #d9b3ff;
+  background-color: #BB95B9;
 }
 
 #home, #about-page, #portfolio, #skills, #contact-page {
-  color: #FFFFFF; 
-  text-shadow: 0px 0px 5px #976391;
+  color: #000000; 
+  text-shadow: 2px 0px 5px #976391;;
   text-decoration: none;
   font-size: 14px;
 }
 
 #home:hover, #about-page:hover, #portfolio:hover, #skills:hover, #contact-page:hover {
   cursor: pointer;
-  background:#976391;
-  text-decoration: underline #F9E0DD; 
+  background: #D9B3FF;
+  color: #ffffff; 
+  text-decoration: underline #ffffff; 
 }
 
 #home:active, #about-page:active, #portfolio:active, #skills:active, #contact-page:active {
