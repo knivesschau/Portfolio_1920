@@ -98,20 +98,21 @@ nav {
 
 #home, #about-page, #portfolio, #skills, #contact-page {
   color: #000000; 
-  text-shadow: 2px 0px 5px #976391;;
+  font-weight: bolder;
+  text-shadow: 1px 1px 20px #d9b3ff;
   text-decoration: none;
   font-size: 14px;
 }
 
 #home:hover, #about-page:hover, #portfolio:hover, #skills:hover, #contact-page:hover {
   cursor: pointer;
-  background: #D9B3FF;
+  background: #725E87;
   color: #ffffff; 
   text-decoration: underline #ffffff; 
 }
 
 #home:active, #about-page:active, #portfolio:active, #skills:active, #contact-page:active {
-  background: #9BDEAC;
+  background: #D9B3FF;
 }
 
 a {
@@ -128,7 +129,7 @@ a:hover {
 }
 
 a:active {
-  color: #9BDEAC;
+  color: #725E87;
 }
 
 .portfolio-landing {
