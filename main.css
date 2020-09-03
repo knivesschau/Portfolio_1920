@@ -77,6 +77,7 @@ footer {
 ul {
   padding: 0;
   text-align: center;
+  margin-top: 1px;
 }
 
 li {
@@ -167,13 +168,13 @@ a:active {
   font-size: 14px;
 }
 
-#lang-1 {
+#lang-1, #lang-2, #lang-3, #lang-4 {
   text-align: center;
   font-style: italic;
   font-size: 16px;
 }
 
-#description-1 {
+#description-1, #description-2, #description-3, #description-4 {
   text-align: left;
   padding-left: 2%;
   padding-right: 2%;
@@ -184,12 +185,21 @@ a:active {
   font-size: 20px;
 }
 
-#quiz-sample1, #quiz-sample2 {
+#quiz-sample1, #quiz-sample2, #fusion-sample1, #fusion-sample2, #garden-sample1, #garden-sample2,
+#food-sample1, #food-sample2 {
   width: 95%;
   display: block;
   margin-left: auto;
   margin-right: auto;
   padding: 5px;
+}
+
+#garden-sample1, #garden-sample2 {
+  border: 1px solid black;
+}
+
+#garden-sample2 {
+  margin-top: 10px;
 }
 
 #portrait-img {
@@ -223,6 +233,10 @@ a:active {
     padding-top: 15%;
   } 
 
+  #skills-header {
+    margin-top: -30px;
+  }
+
   a {
     font-size: 16px;
   }
@@ -254,13 +268,13 @@ a:active {
     font-size: 28px;
   }
 
-  #description-1 {
+  #description-1, #description-2, #description-3, #description-4 {
     font-size: 26px;
     padding-left: 2%;
     padding-right: 2%;
   }
 
-  #lang-1  {
+  #lang-1, #lang-2, #lang-3, #lang-4  {
     font-size: 30px;
   }
 
@@ -277,6 +291,10 @@ a:active {
     padding-top: 5%; 
   }
 
+  #skills-header {
+    margin-top: 5px;
+  }
+
   .portfolio-landing {
     padding-top: 10%;
   }
@@ -289,7 +307,8 @@ a:active {
     padding-top: 0%;
   }
 
-  #quiz-sample1, #quiz-sample2 {
+  #quiz-sample1, #quiz-sample2, #fusion-sample1, #fusion-sample2, #garden-sample1, #garden-sample2,
+  #food-sample1, #food-sample2 {
     width: 85%;
   }
 
@@ -310,21 +329,22 @@ a:active {
     padding: 4%;
   }
 
-  #description-1 {
+  #description-1, #description-2, #description-3, #description-4 {
     clear: both;
   }
 
-  #quiz-sample1, #quiz-sample2 {
+  #quiz-sample1, #quiz-sample2, #fusion-sample1, #fusion-sample2, #garden-sample1, #garden-sample2,
+  #food-sample1, #food-sample2 {
     width: 45%;
     margin-bottom: 15px;
   }
 
-  #quiz-sample1 {
+  #quiz-sample1, #fusion-sample1, #garden-sample1, #food-sample1 {
     float: left;
     margin-left: 30px;
   }
 
-  #quiz-sample2 {
+  #quiz-sample2, #fusion-sample2, #garden-sample2, #food-sample2 {
     float: right;
     margin-right: 30px;
   }
@@ -335,6 +355,10 @@ a:active {
 
   .contact-info {
     padding-top: 5%;
+  }
+
+  #linkedin, #github, #email {
+    margin-top: -20px;
   }
 } 
 
@@ -351,17 +375,22 @@ a:active {
 
   #portrait-img {
     width: 40%;
-  }   
+  }
+  
+  #contact-header {
+    margin-top: -80px;
+  }
 
   #about-1, #about-2 {
     font-size: 32px;
   }
 
-  #description-1 {
+  #description-1, #description-2, #description-3, #description-4 {
     font-size: 30px;
   }
 
-  #quiz-sample1, #quiz-sample2 {
+  #quiz-sample1, #quiz-sample2, #fusion-sample1, #fusion-sample2, #garden-sample1, #garden-sample2,
+  #food-sample1, #food-sample2 {
     margin-left: 20px;
     margin-right: 20px;
   }
